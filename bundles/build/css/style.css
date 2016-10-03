@@ -1,0 +1,29 @@
+form .error {
+    margin: 0.5em 0;
+    color: #900;
+    font-size: 1.3em;
+
+}
+#registration-form {
+    z-index:1;
+    position: relative;
+}
+#registration-form .submitting{
+    display:none;
+    z-index:999;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: url('../img/imgloader.gif') center center no-repeat #fff;
+    background: url('../img/imgloader.gif') center center no-repeat rgba(256,256,256, 0.8);
+
+}
+#footer ul {
+    text-align: center;
+}
+#footer ul li {
+    display: inline-block;
+    margin: 0 3em;
+}
